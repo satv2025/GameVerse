@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos de Terror</title>
+    <!-- Usamos el link para importar la fuente Tektur desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Tektur'; /* Usamos solo la fuente Tektur */
+            background-color: #0f0f0f;
+            color: #ff0040;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            padding-bottom: 70px; /* Para que el footer no se superponga al contenido */
+        }
+
+        header {
+            text-align: center;
+            padding: 40px;
+            background-color: #222;
+            border-bottom: 4px solid #ff0040;
+            box-shadow: 0 4px 10px rgba(255, 0, 64, 0.7);
+        }
+
+        h1 {
+            font-size: 4em;
+            color: #ff0040;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px; /* Espacio entre los juegos */
+            padding: 30px;
+            margin-bottom: 50px; /* Añadido para que los juegos no toquen el pie de página */
+            overflow-y: auto; /* Permite que solo el contenedor de juegos tenga su propia barra de desplazamiento */
+        }
+
+        .game {
+            background-color: #222;
+            border-radius: 15px;
+            padding: 20px;
+            width: 95%; /* El contenedor ahora tiene un 95% de ancho */
+            height: 11em; /* Altura definida de 7em */
+            margin: 0 auto; /* Centrar los contenedores */
+            box-shadow: 0 0 15px rgba(255, 0, 64, 0.7);
+            position: relative;
+            color: #ff0040; /* Todo el texto en #ff0040 */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centra el contenido verticalmente */
+            overflow: hidden; /* Evita el desbordamiento del texto */
+        }
+
+        .game h2 {
+            font-size: 2.5em;
+            margin: 0;
+            text-transform: uppercase;
+            color: #ff0040;
+            padding-left: 0.5em;
+        }
+
+        .game p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #ff0040; /* Todo el texto en #ff0040 */
+            text-align: justify;
+            margin-top: 10px;
+            overflow: hidden; /* Asegura que el texto no se desborde */
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
+        /* Estilo para la selección de texto */
+        ::selection {
+            background-color: #ff0040;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #222;
+            padding: 20px;
+            color: #ff0040;
+            position: relative;
+            bottom: -4.4em;
+            width: 100%;
+        }
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #ff0040;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #00000000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Juegos de Terror</h1>
+    </header>
+
+    <div class="game-container">
+        <div class="game">
+            <h2>The Last of Us</h2>
+            <p>En un mundo devastado por una infección global, Joel debe proteger a Ellie, una joven con la clave para salvar a la humanidad, mientras enfrentan una constante lucha por sobrevivir. Los monstruos no son solo los infectados, sino también los demás humanos que han perdido su humanidad.</p>
+        </div>
+        <div class="game">
+            <h2>Amnesia: The Dark Descent</h2>
+            <p>Daniel despierta en un castillo olvidado, con amnesia total, sin recordar cómo llegó allí. Mientras explora, descubre que algo oscuro y antiguo acecha las sombras. A medida que desentraña su pasado, la verdad lo arrastra hacia un destino peor que la muerte.</p>
+        </div>
+        <div class="game">
+            <h2>Soma</h2>
+            <p>Simon despierta en una estación submarina después de un accidente, solo para encontrar que la humanidad ha desaparecido. Sin embargo, lo que queda no es más que máquinas con conciencia humana. ¿Cómo puede un ser humano sobrevivir cuando lo que está vivo ya no lo está?</p>
+        </div>
+        <div class="game">
+            <h2>Slender: The Arrival</h2>
+            <p>Un desconocido ser acecha en la oscuridad. Kate, una joven, se ve atrapada en un pueblo rural donde los árboles susurran y los recuerdos son distorsionados. A medida que la sombra de Slender Man se acerca, su propia mente comienza a desmoronarse.</p>
+        </div>
+        <div class="game">
+            <h2>Resident Evil 7</h2>
+            <p>Cuando Ethan recibe un mensaje de su esposa desaparecida, Mia, lo lleva hasta una mansión en los pantanos de Louisiana. Lo que comienza como una misión de rescate pronto se convierte en una pesadilla de horror indescriptible, mientras él descubre una familia corrompida por fuerzas más allá de la comprensión humana.</p>
+        </div>
+        <div class="game">
+            <h2>Outlast</h2>
+            <p>En una oscura noche, el periodista Miles Upshur investiga un manicomio abandonado, solo para descubrir que los pacientes no son los únicos seres peligrosos. Lo que parecía ser una misión de investigación, pronto se convierte en una carrera por sobrevivir ante lo imposible.</p>
+        </div>
+        <div class="game">
+            <h2>Silent Hill 2</h2>
+            <p>James Sunderland llega a Silent Hill buscando respuestas tras recibir una carta de su esposa muerta. Mientras explora la espeluznante ciudad, se enfrenta a sus propios demonios internos, donde el terror no solo reside en los monstruos, sino en su propia mente.</p>
+        </div>
+        <div class="game">
+            <h2>P.T.</h2>
+            <p>Un hombre atrapado en un ciclo sin fin de un pasillo interminable, donde las reglas del tiempo y el espacio se desvanecen. A cada vuelta, la realidad se distorsiona, y cada puerta lleva a un horror cada vez más aterrador. P.T. es una pesadilla que no puede escapar.</p>
+        </div>
+        <div class="game">
+            <h2>Fatal Frame II</h2>
+            <p>En una isla deshabitada, dos hermanas descubren una mansión que esconde una aterradora historia de sacrificios y almas atrapadas. Armadas con una cámara, deberán enfrentarse a los espíritus vengativos que buscan liberarse de la oscuridad.</p>
+        </div>
+        <div class="game">
+            <h2>Dead Space</h2>
+            <p>Isaac Clarke es enviado a una nave minera abandonada para investigar una señal de socorro, pero lo que descubre es mucho peor: los miembros de la tripulación se han transformado en horribles monstruos, y el reloj de la muerte está en marcha mientras la nave se desvanece en el vacío del espacio.</p>
+        </div>
+        <div class="game">
+            <h2>Layers of Fear</h2>
+            <p>Un pintor, atormentado por su pasado y obsesionado con la perfección, comienza a perder la cordura mientras trabaja en su última obra maestra. A medida que la mansión donde vive se distorsiona, los límites entre la realidad y la locura se desvanecen, llevándolo al borde del abismo.</p>
+        </div>
+        <div class="game">
+            <h2>Until Dawn</h2>
+            <p>Una broma que sale mal, dos hermanas que mueren. Un grupo de amigos regresa a una cabaña donde la muerte de dos hermanas y un asesino psicópata, desata algo siniestro que los atormenta... hasta el amanecer.</p>
+        </div>
+        <div class="game">
+            <h2>The Evil Within</h2>
+            <p>El detective Sebastian Castellanos investiga un asesinato masivo en un hospital psiquiátrico, solo para encontrarse atrapado en una dimensión de pesadilla. Los monstruos, las trampas y los horrores lo acechan, y deberá luchar no solo por su vida, sino por su propia cordura.</p>
+        </div>
+        <div class="game">
+            <h2>Alan Wake</h2>
+            <p>El escritor Alan Wake busca respuestas a la misteriosa desaparición de su esposa en el oscuro pueblo de Bright Falls. Lo que parecía una simple desaparición se convierte en una lucha por la supervivencia cuando las sombras cobran vida y la frontera entre la ficción y la realidad se difumina.</p>
+        </div>
+        <div class="game">
+            <h2>Alien: Isolation</h2>
+            <p>Después de la muerte de su madre, Amanda Ripley se embarca en una misión de rescate en la estación espacial Sevastopol. Pero lo que encuentra es una nave infestada por una criatura mortal: un alienígena imparable que la persigue incansablemente mientras busca escapar.</p>
+        </div>
+        <div class="game">
+            <h2>Dark Souls</h2>
+            <p>Un guerrero sin nombre despierta en un mundo desolado, donde la muerte es solo un paso en un ciclo eterno. Enfrentándose a monstruos épicos y poderosos jefes, el héroe debe desafiar las oscuras fuerzas que han sumido al mundo en la oscuridad.</p>
+        </div>
+        <div class="game">
+            <h2>Corpse Party</h2>
+            <p>Un grupo de estudiantes se ve transportado a una dimensión alterna después de un accidente en su escuela. Allí, se encuentran atrapados en un lugar de pesadilla, donde las almas de los muertos buscan venganza, y cada intento de escape solo los acerca más al horror.</p>
+        </div>
+        <div class="game">
+            <h2>Oxenfree</h2>
+            <p>Un grupo de amigos se encuentra en una isla desierta donde descubren portales a dimensiones paralelas. Lo que parecía ser una simple excursión se convierte en una lucha por sus vidas cuando fuerzas sobrenaturales comienzan a acecharlos.</p>
+        </div>
+        <div class="game">
+            <h2>Little Nightmares</h2>
+            <p>Una niña pequeña llamada Six se ve atrapada en un barco gigante lleno de monstruos grotescos. En un mundo donde la oscuridad y el peligro acechan en cada rincón, debe encontrar una forma de escapar mientras enfrenta sus peores miedos.</p>
+        </div>
+        <div class="game">
+            <h2>Poppy Playtime</h2>
+            <p>Después de recibir una misteriosa invitación para regresar a una antigua fábrica de juguetes cerrada, el protagonista descubre que no está solo. Los juguetes, una vez amigables, ahora cobran vida y están fuera de control. Debes resolver los oscuros secretos del lugar mientras escapas de las criaturas que acechan en cada rincón.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Juegos de Terror. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
