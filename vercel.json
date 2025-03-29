@@ -1,11 +1,4 @@
 {
-    "redirects": [
-      {
-        "source": "/index",
-        "destination": "/",
-        "permanent": true
-      }
-    ],
     "rewrites": [
       {
         "source": "/:path",
@@ -17,6 +10,16 @@
         "source": "/404",
         "destination": "/404.html",
         "statusCode": 404
+      },
+      {
+        "source": "/index",
+        "destination": "/",
+        "statusCode": 301
+      },
+      {
+        "source": "/:path.html",
+        "destination": "/:path",
+        "statusCode": 301
       }
     ]
   }  
