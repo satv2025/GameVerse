@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Origen de Slenderman - Experimento 84-B</title>
     <link rel="stylesheet" href="base.css">
-    <link rel="icon" href="SlendermanICO.png" type="image/png">
+    <link rel="icon" href="GameVerseICO 2.png" type="image/png">
 </head>
 <body>
 
@@ -39,29 +39,23 @@
 
             <h3>Curiosidad</h3>
             <p>Slenderman es en realidad una creación hecha por Victor Surge para participar de un concurso de Photosop.</p>
-        </div>
-        <div class="container rapcreepyymas">
+
             <h3>Creepypasta, juego y un rap</h3>
             <p>Acá podrás escuchar un rap hecho por DeiGamer, una creepypasta y jugar el juego.</p>
             
-            <button onclick="window.location.href='archivos/slenderjuego.zip'">Descarga El Juego</button>
-            
-            <div id="player" class="clappr"></div>
-            
-            <a class="exp84b" href="https://creepypasta.fandom.com/es/wiki/Slenderman">Creepypasta A Cerca De Slenderman</a>
+            <a onclick="window.location.href='archivos/slenderjuego.zip'" class="exp84b">Descarga El Juego</a>
+            <a class="exp84b" href="https://creepypasta.fandom.com/es/wiki/Slenderman">Creepypasta</a>
+            <div id="player"></div>
         </div>
     </div>
     <footer>
         <p>&copy; 2025 - Todos los Derechos Reservados</p>
         <p>Esta página es una adaptación de la historia del "Experimento 84-B" y está destinada únicamente al entretenimiento.</p>
     </footer>
-    <script>
-        var player = new Clappr.Player({
-            source: "archivos/rapslender.mp4",
-            parentId: "#player",
-            width: "100%",
-            height: 360,
-        });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+    <script src="gameverseplayer.js" type="text/javascript"></script>
+<script>
+   var player = new Playerjs({id:"player", file:"archivos/rapslender.mp4"});
+</script>
 </body>
 </html>

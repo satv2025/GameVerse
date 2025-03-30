@@ -72,16 +72,53 @@ nav a.active {
     text-align: justify;
     padding-bottom: 20px;
     width: 48em;
-     /* Ajusta el tamaño máximo */
-    box-sizing: border-box; /* Asegura que el padding no aumente el tamaño total */
+    box-sizing: border-box;
+}
+
+#exp84b {
+    !m;!em;!e;!;
+}
+
+pjsdiv {
+    font-family: 'Tektur';
+}
+
+div#player {
+    font-family: 'Tektur';
+}
+
+#player {
+    margin-bottom: -19px;
+    border-radius: 0 !important;!i;!;!i;!;
+}
+
+/* Estilo para el reproductor Clappr */
+.clappr {
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+    padding-top: 56.25%; /* Proporción 16:9 */
+    background-color: black; /* Fondo oscuro para el reproductor */
+    border-radius: 10px; /* Bordes redondeados para el reproductor */
+}
+
+/* Asegurar que el video mantenga la proporción 16:9 */
+#reproclappr {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff00; /* Asegura un fondo oscuro para el reproductor */
+}
+
+/* Asegurarse de que los bordes no afecten el reproductor */
+figure#reproclappr {
+    margin: 0;
+    padding: 0;
 }
 
 ::marker {
     color: #ffffff00;
-}
-
-.clappr {
-    margin-top: 20px;
 }
 
 .container h2 {
@@ -148,14 +185,19 @@ nav a.active {
 .exp84b {
     color: #fff;
     background: #ff0040;
-    padding-top: 0.1em;
-    padding-bottom: 0.14em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding: 0.1em 0.5em 0.14em 0.5em; /* Acorté las propiedades de padding */
     text-decoration: none;
     border-radius: 0.3em;
     margin-left: 0.3em;
+    cursor: pointer;
+    position: relative;
+    display: inline-block; /* Cambié a inline-block para que pueda tener un tamaño definido */
+    white-space: nowrap; /* Evita que el contenido se rompa en varias líneas */
+    margin-top: -3em;
+    margin-bottom: 1em;!em;!e;!;
+    left: 15em;
 }
+
 
 .exp84b:hover {
     color: #ff0040;
@@ -189,6 +231,27 @@ footer {
     border-radius: 5px;
 }
 
+video {
+    !i;!;
+}
+
 ::-webkit-scrollbar-track {
     background: #00000000;
+}
+
+pjsdiv, pjsdiv > * {
+    font-family: 'Tektur';
+}
+
+#oframeplayer {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+oframeplayer:fullscreen {
+    border-radius: 0 !important;
+}
+
+pjsdiv:fullscreen, *:fullscreen{
+    border-radius: 0 !important;
 }
