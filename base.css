@@ -80,7 +80,9 @@ nav a.active {
     color: #ffffff00;
 }
 
-.container h2 {padding-left: 39%;padding-right: 25%;text-align: center;}
+.container h2 {
+    text-align: center;
+}
 
 .container h3 {
     padding-left: 3.4em;
