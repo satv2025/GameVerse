@@ -23,7 +23,7 @@
 
     <div class="content-container">
         <div class="container">
-            <h2>¿Qué es el Experimento 84-B?</h2>
+            <h2>Experimento 84-B - El origen de Slenderman</h2>
             <p>El "Experimento 84-B" es una leyenda urbana que describe el origen ficticio de Slenderman, una entidad creada en 2009 en el foro Something Awful. La historia relata cómo un joven, tras someterse a un experimento científico, sufre una transformación que lo convierte en Slenderman.</p>
 
             <h3>La Historia</h3>
@@ -36,13 +36,32 @@
 
             <h3>Nota Importante</h3>
             <p>Es fundamental recordar que el "Experimento 84-B" es una obra de ficción creada para entretenimiento. No debe confundirse con hechos reales ni tomarse como una representación precisa de eventos históricos o científicos.</p>
+
+            <h3>Curiosidad</h3>
+            <p>Slenderman es en realidad una creación hecha por Victor Surge para participar de un concurso de Photosop.</p>
+        </div>
+        <div class="container rapcreepyymas">
+            <h3>Creepypasta, juego y un rap</h3>
+            <p>Acá podrás escuchar un rap hecho por DeiGamer, una creepypasta y jugar el juego.</p>
+            
+            <button onclick="window.location.href='archivos/slenderjuego.zip'">Descarga El Juego</button>
+            
+            <div id="player" class="clappr"></div>
+            
+            <a class="exp84b" href="https://creepypasta.fandom.com/es/wiki/Slenderman">Creepypasta A Cerca De Slenderman</a>
         </div>
     </div>
-
     <footer>
         <p>&copy; 2025 - Todos los Derechos Reservados</p>
         <p>Esta página es una adaptación de la historia del "Experimento 84-B" y está destinada únicamente al entretenimiento.</p>
     </footer>
-
+    <script>
+        var player = new Clappr.Player({
+            source: "archivos/rapslender.mp4",
+            parentId: "#player",
+            width: "100%",
+            height: 360,
+        });
+    </script>
 </body>
 </html>
