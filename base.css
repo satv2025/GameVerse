@@ -194,7 +194,7 @@ figure#reproclappr {
     display: inline-block; /* Cambié a inline-block para que pueda tener un tamaño definido */
     white-space: nowrap; /* Evita que el contenido se rompa en varias líneas */
     margin-top: -3em;
-    margin-bottom: 1em;!em;!e;!;
+    margin-bottom: 1em;
     left: 15em;
 }
 
@@ -254,4 +254,13 @@ oframeplayer:fullscreen {
 
 pjsdiv:fullscreen, *:fullscreen{
     border-radius: 0 !important;
+}
+
+.exp84b2 {
+    color: #fff;
+    background: #ff0040;
+    padding: 0.1em 0.5em 0.14em 0.5em; /* Acorté las propiedades de padding */
+    text-decoration: none;
+    border-radius: 0.3em;
+    margin-left: 0.3em;
 }
