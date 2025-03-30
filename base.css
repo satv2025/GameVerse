@@ -64,12 +64,37 @@ nav a.active {
 .container {
     background-color: #222;
     border-radius: 15px;
-    padding: 20px;
+    padding-top: 20px;
     box-shadow: 0 0 15px #ff0040b3;
     margin: 0 auto;
     color: #ff0040;
     font-size: 1.2em;
     text-align: justify;
+    padding-bottom: 20px;
+    width: 48em;
+     /* Ajusta el tamaño máximo */
+    box-sizing: border-box; /* Asegura que el padding no aumente el tamaño total */
+}
+
+::marker {
+    color: #ffffff00;
+}
+
+.container h2 {padding-left: 39%;padding-right: 25%;}
+
+.container h3 {
+    padding-left: 3.4em;
+    padding-right: 3.4em;
+}
+
+.container p {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.container ul {
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
 /* Estilo para los juegos */
