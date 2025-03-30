@@ -80,7 +80,7 @@ nav a.active {
     color: #ffffff00;
 }
 
-.container h2 {padding-left: 39%;padding-right: 25%;}
+.container h2 {padding-left: 39%;padding-right: 25%;text-align: center;}
 
 .container h3 {
     padding-left: 3.4em;
@@ -112,7 +112,6 @@ nav a.active {
     border-radius: 15px;
     padding: 20px;
     width: 95%;
-    height: 11em;
     margin: 0 auto;
     box-shadow: 0 0 15px #ff0040b3;
     color: #ff0040;
@@ -136,9 +135,25 @@ nav a.active {
     color: #ff0040;
     text-align: justify;
     margin-top: 10px;
-    overflow: hidden;
     padding-left: 1em;
     padding-right: 1em;
+}
+
+.exp84b {
+    color: #fff;
+    background: #ff0040;
+    padding-top: 0.1em;
+    padding-bottom: 0.14em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: none;
+    border-radius: 0.3em;
+    margin-left: 0.3em;
+}
+
+.exp84b:hover {
+    color: #ff0040;
+    background: #fff;
 }
 
 /* Estilo para la selección de texto */
