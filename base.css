@@ -162,6 +162,7 @@ figure#reproclappr {
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
+    height: 11em;
 }
 
 .game h2 {
@@ -200,6 +201,11 @@ figure#reproclappr {
 
 
 .exp84b:hover {
+    color: #ff0040;
+    background: #fff;
+}
+
+.exp84b2:hover {
     color: #ff0040;
     background: #fff;
 }
